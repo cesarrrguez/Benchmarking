@@ -2,6 +2,7 @@
 using BenchmarkDotNet.Running;
 
 using Benchmarking.Benchmarks.ConcatStrings;
+using Benchmarking.Benchmarks.ArgumentIncrement;
 
 namespace Benchmarking
 {
@@ -9,7 +10,8 @@ namespace Benchmarking
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<ConcatStringsBenchmarks>();
+            //BenchmarkRunner.Run<ConcatStringsBenchmarks>();
+            BenchmarkRunner.Run<ArgumentIncrementBenchmarks>();
         }
     }
 }
