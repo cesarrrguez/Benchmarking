@@ -6,14 +6,14 @@ This repository contains some _benchmarks_ using _BenchmarkDotNet_.
 
 ## Requirements
 
-- .Net Core
+- .Net
 
 ## Usage
 
 Run release application for see benchmarks:
 
 ```console
-dotnet run -p Benchmarking.csproj -c Release
+dotnet run --project Benchmarking/Benchmarking.csproj -c Release
 ```
 
 ## License

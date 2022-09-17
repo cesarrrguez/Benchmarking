@@ -1,51 +1,50 @@
-﻿namespace Benchmarking.Benchmarks.ArgumentIncrement
+﻿namespace Benchmarking.Benchmarks.ArgumentIncrement;
+
+public class ArgumentIncrementService
 {
-    public static class ArgumentIncrementService
+    public int A(int numberOfItems)
     {
-        public static int A(int numberOfItems)
+        var result = 0;
+
+        for (var i = 0; i < numberOfItems; i++)
         {
-            var result = 0;
-
-            for (var i = 0; i < numberOfItems; i++)
-            {
-                result = IncrementA(result);
-            }
-
-            return result;
+            result = IncrementA(result);
         }
 
-        public static int IncrementA(int x)
-        {
-            x++;
-            x++;
-            x++;
-            x++;
+        return result;
+    }
 
-            return x;
+    public int B(int numberOfItems)
+    {
+        var result = 0;
+
+        for (var i = 0; i < numberOfItems; i++)
+        {
+            result = IncrementB(result);
         }
 
-        public static int B(int numberOfItems)
-        {
-            var result = 0;
+        return result;
+    }
 
-            for (var i = 0; i < numberOfItems; i++)
-            {
-                result = IncrementB(result);
-            }
+    private int IncrementA(int x)
+    {
+        x++;
+        x++;
+        x++;
+        x++;
 
-            return result;
-        }
+        return x;
+    }
 
-        public static int IncrementB(int x)
-        {
-            var y = x;
+    private int IncrementB(int x)
+    {
+        var y = x;
 
-            y++;
-            y++;
-            y++;
-            y++;
+        y++;
+        y++;
+        y++;
+        y++;
 
-            return y;
-        }
+        return y;
     }
 }
