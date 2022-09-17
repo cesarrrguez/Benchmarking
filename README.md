@@ -13,7 +13,7 @@ This repository contains some _benchmarks_ using _BenchmarkDotNet_.
 Run release application for see benchmarks:
 
 ```console
-dotnet run --project Benchmarking/Benchmarking.csproj -c Release
+dotnet run --project src/Benchmarking/Benchmarking.csproj -c Release
 ```
 
 ## License
