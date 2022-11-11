@@ -2,6 +2,7 @@
 
 BenchmarkRunner.Run<Benchmarking.Benchmarks.ArgumentIncrement.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.AsyncTask.Benchmarks>();
+//BenchmarkRunner.Run<Benchmarking.Benchmarks.Boxing.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.CastingObjects.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.ConcatStrings.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.Enumeration.Benchmarks>();
