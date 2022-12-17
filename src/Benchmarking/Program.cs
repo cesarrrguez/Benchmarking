@@ -15,3 +15,4 @@ BenchmarkRunner.Run<Benchmarking.Benchmarks.ArgumentIncrement.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.ParallelLoop.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.Params.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.Reflection.Benchmarks>();
+//BenchmarkRunner.Run<Benchmarking.Benchmarks.Span.Benchmarks>();
