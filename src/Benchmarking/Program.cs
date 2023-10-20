@@ -12,6 +12,7 @@
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.IntParser.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.JSON.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.LINQ.Benchmarks>();
+//BenchmarkRunner.Run<Benchmarking.Benchmarks.ListIteration.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.Logging.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.ParallelLoop.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.Params.Benchmarks>();
