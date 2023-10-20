@@ -1,9 +1,10 @@
 ﻿using BenchmarkDotNet.Running;
 
-BenchmarkRunner.Run<Benchmarking.Benchmarks.ArgumentIncrement.Benchmarks>();
+//BenchmarkRunner.Run<Benchmarking.Benchmarks.ArgumentIncrement.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.AsyncTask.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.Boxing.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.CastingObjects.Benchmarks>();
+//BenchmarkRunner.Run<Benchmarking.Benchmarks.CompareStrings.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.ConcatStrings.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.Enumeration.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.Benchmarks.EnumToString.Benchmarks>();

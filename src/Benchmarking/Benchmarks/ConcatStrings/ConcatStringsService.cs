@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Benchmarking.Benchmarks.ConcatStrings;
 
-public class ConcatStringsService
+public class CompareStringsService
 {
     public string ConcatStringsWithGenericList(int numberOfItems)
     {
