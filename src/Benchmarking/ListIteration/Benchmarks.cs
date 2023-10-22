@@ -10,7 +10,7 @@ namespace Benchmarking.ListIteration;
 [MemoryDiagnoser(false)]
 public class Benchmarks
 {
-    private static readonly Random _rng = new(80085);
+
     private List<int> _items;
 
     [Params(100, 100_000, 1_000_000)]
@@ -20,7 +20,8 @@ public class Benchmarks
     [GlobalSetup]
     public void Setup()
     {
-        _items = Enumerable.Range(1, NumberOfItems).Select(x => _rng.Next()).ToList();
+        var random = new Random(80085);
+        _items = Enumerable.Range(1, NumberOfItems).Select(x => random.Next()).ToList();
     }
 
     [Benchmark]
