@@ -1,7 +1,7 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Benchmarking.Benchmarks.JSON;
+namespace Benchmarking.JSON;
 
 public class GitHubService
 {

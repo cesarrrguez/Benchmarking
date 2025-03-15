@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Attributes;
 
-namespace Benchmarking.Benchmarks.Params;
+namespace Benchmarking.Params;
 
 [MemoryDiagnoser(false)]
 public class Benchmarks

@@ -1,4 +1,4 @@
-﻿namespace Benchmarking.Benchmarks.Logging;
+﻿namespace Benchmarking.Logging;
 
 public interface ILoggerAdapter<T>
 {

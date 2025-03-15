@@ -1,4 +1,4 @@
-﻿namespace Benchmarking.Benchmarks.EnumToString;
+﻿namespace Benchmarking.EnumToString;
 
 public enum HumanState
 {

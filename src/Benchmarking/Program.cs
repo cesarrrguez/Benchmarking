@@ -9,6 +9,7 @@
 //BenchmarkRunner.Run<Benchmarking.Enumeration.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.EnumToString.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.EqualsList.Benchmarks>();
+BenchmarkRunner.Run<Benchmarking.Find.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.IntParser.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.JSON.Benchmarks>();
 //BenchmarkRunner.Run<Benchmarking.LINQ.Benchmarks>();

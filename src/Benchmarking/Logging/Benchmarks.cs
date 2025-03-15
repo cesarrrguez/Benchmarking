@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using Microsoft.Extensions.Logging;
 
-namespace Benchmarking.Benchmarks.Logging;
+namespace Benchmarking.Logging;
 
 [MemoryDiagnoser(false)]
 public class Benchmarks

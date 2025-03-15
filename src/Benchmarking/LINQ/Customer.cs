@@ -1,4 +1,4 @@
-﻿namespace Benchmarking.Benchmarks.LINQ;
+﻿namespace Benchmarking.LINQ;
 
 public class Customer
 {

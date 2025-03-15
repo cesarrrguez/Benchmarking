@@ -1,6 +1,6 @@
 ﻿using NetEscapades.EnumGenerators;
 
-namespace Benchmarking.Benchmarks.Enumeration;
+namespace Benchmarking.Enumeration;
 
 [EnumExtensions]
 public enum Color

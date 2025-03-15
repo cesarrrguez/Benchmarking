@@ -1,4 +1,4 @@
-﻿namespace Benchmarking.Benchmarks.Reflection;
+﻿namespace Benchmarking.Reflection;
 
 public class Person
 {

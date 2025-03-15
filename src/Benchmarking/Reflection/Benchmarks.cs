@@ -1,8 +1,8 @@
-﻿using BenchmarkDotNet.Attributes;
+﻿using System;
 using System.Reflection;
-using System;
+using BenchmarkDotNet.Attributes;
 
-namespace Benchmarking.Benchmarks.Reflection;
+namespace Benchmarking.Reflection;
 
 [MemoryDiagnoser(false)]
 public class Benchmarks

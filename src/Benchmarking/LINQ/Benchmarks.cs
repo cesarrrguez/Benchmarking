@@ -1,10 +1,10 @@
-﻿using BenchmarkDotNet.Attributes;
-using Bogus;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using BenchmarkDotNet.Attributes;
+using Bogus;
 
-namespace Benchmarking.Benchmarks.LINQ;
+namespace Benchmarking.LINQ;
 
 [MemoryDiagnoser(false)]
 public class Benchmarks

@@ -1,7 +1,7 @@
 ﻿using AutoFixture;
 using BenchmarkDotNet.Attributes;
 
-namespace Benchmarking.Benchmarks.JSON;
+namespace Benchmarking.JSON;
 
 [MemoryDiagnoser(false)]
 public class Benchmarks
@@ -11,7 +11,7 @@ public class Benchmarks
 
     private static readonly IFixture _fixture = new Fixture();
     private static readonly User _user = _fixture.Create<User>();
-      
+
     private string _userAsText;
 
     [GlobalSetup]

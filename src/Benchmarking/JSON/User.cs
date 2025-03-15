@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Benchmarking.Benchmarks.JSON;
+namespace Benchmarking.JSON;
 
 public record User
 {
